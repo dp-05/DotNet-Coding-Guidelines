@@ -110,7 +110,7 @@ if (number is null)
 ### Tip #6
 ✋ Avoid code without braces ({}) for single conditional if statement, for and foreach loops like in the following:
 ```
-if(conditioin) action;
+if(condition) action;
 ```
 Without the braces, it is too easy to accidentally add a second line thinking it is included in the if, when it isn’t.
 
